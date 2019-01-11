@@ -46,7 +46,7 @@ You can use the standard private CIDR blocks listed in the following table and t
 -   If you have requirements for other special CIDR blocks, open a ticket or contact your customer manager to activate the CIDR blocks.
 -   If multiple VPCs exist, or you have to build a hybrid cloud composed of VPCs and offline IDCs, we recommend that you use subnets of the preceding standard CIDR blocks and that the netmask length does not exceed 16.
 -   If only one VPC is on the cloud and the VPC does not have to communicate with offline IDCs, you can select any of the preceding CIDR blocks or their subnets.
--   You must also consider whether the class network is used. If you are using a classic a classic network on the cloud and plan to connect ECS instances of the classic network to a VPC by using the [ClassicLink](../../../../reseller.en-US/User Guide/ClassicLink/ClassicLink overview.md#) feature, we recommend that you use a CIDR block other than 10.0.0.0/8 for the VPC, because the CIDR block of a classic network is 10.0.0.0/8.
+-   You must also consider whether the classic network is used. If you are using a classic a classic network on the cloud and plan to connect ECS instances of the classic network to a VPC by using the [ClassicLink](../../../../reseller.en-US/User Guide/ClassicLink/ClassicLink overview.md#) feature, we recommend that you use a CIDR block other than 10.0.0.0/8 for the VPC, because the CIDR block of a classic network is 10.0.0.0/8.
 
 For more information, see [plan and design VPC](../../../../reseller.en-US/Best practices/Plan and design VPC.md#).
 

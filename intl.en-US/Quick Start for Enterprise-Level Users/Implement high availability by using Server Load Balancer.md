@@ -65,7 +65,7 @@ Before using Server Load Balancer, make the following preparations.
 
     -   ECS configuration
 
-        After deploying applications on the ECS instances, you do not have to perform special configuration. owever, to configure a Layer-4 listener \(TCP or UDP\) for Linux ECS instances, make sure that values of the following parameters in the net.ipv4.conf file are set 0s:
+        After deploying applications on the ECS instances, you do not have to perform special configuration. However, to configure a Layer-4 listener \(TCP or UDP\) for Linux ECS instances, make sure that values of the following parameters in the net.ipv4.conf file are set 0s:
 
         ```
         net.ipv4.conf.default.rp_filter = 0
